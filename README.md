@@ -26,6 +26,16 @@ Understand how SSH service ([openssh-server](https://www.openssh.com/)) works an
 Learn about [UFW](https://wiki.debian.org/Uncomplicated%20Firewall%20%28ufw%29) _(Uncomplicated Firewall)_ and configure specific rules. <br>
 Learn about groups, users and how configure it. <br>
 
+#### Password Policy
+Set up a strong password policy: <br>
+- The password expires every 30 days;
+- The number of days allowed before a new password is 2;
+- The user receives a warning message 7 days before their password expires;
+- The password must be at least 10 characters long, being an uppercase, a lowercase and a number.
+- It must not contain more than 3 consecutive identical characters;
+- The name of the user it must not used.
+- The password must have at least 7 characters different from the old password.
+
 #### Sudo
 Install and configure sudo following strict rules: <br>
 - Authentication using sudo has 3 attempts; <br>
