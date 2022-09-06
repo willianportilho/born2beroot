@@ -43,10 +43,9 @@ Install and configure sudo following strict rules: <br>
 - Each action using sudo is archived in /var/log/sudo/some_folder; <br>
 - TTY mode is enabled; <br>
 - The paths that can be used by sudo are restricted (ex: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin). <br>
-<br>
 
 #### Script
 
-We had to create a [script](./monitoring.sh) that would show some informations on all logged machines.
-I created more than one script. The [first](./monitoring.sh) contains all the path of the arguments and the [second](./monitoring_v2.sh), contains a simplified version, whitout all the path.
-The output received on all machines is:
+We had to create a [script](./monitoring.sh) that would show some informations on all logged machines. <br>
+I created more than one script. The [first](./monitoring.sh) contains all the path of the arguments and the [second](./monitoring_v2.sh), contains a simplified version, whitout all the path. <br>
+The output received on all machines is: <br>
