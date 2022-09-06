@@ -8,6 +8,12 @@
 
 ---
 
+- [Introduction](#introduction)
+- [Explanation](#explanation)
+- [Password Policy](#password-policy)
+- [Sudo](#sudo)
+- [Script](#script)
+
 ## Introduction
 
 This project had the purpose to learn about virtualization and set up a server by following specific rules.
@@ -49,3 +55,5 @@ Install and configure sudo following strict rules: <br>
 We had to create a [script](./monitoring.sh) that would show some informations on all logged machines. <br>
 I created more than one script. The [first](./monitoring.sh) contains all the path of the arguments and the [second](./monitoring_v2.sh), contains a simplified version, whitout all the path. <br>
 The output received on all machines is: <br>
+<br>
+![monitoring output](monitoring_output.png)
